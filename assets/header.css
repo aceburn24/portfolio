@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F8; /* Light pastel background for the body */
+    margin: 0;
+    padding: 0; /* Removed padding to allow full-width header/footer */
+    color: #333; /* Professional text color */
+}
+
+header, footer {
+    background-color: #6A8D92; /* Pastel blue-green for a professional look */
+    color: #fff;
+    padding: 20px 40px; /* Sufficient padding for content, added horizontal padding */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Ensure the list takes no extra space */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #94B49F; /* Soft green for links */
+    padding: 10px 15px;
+    border-radius: 20px; /* Rounded corners for a softer look */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #7D9D9C; /* Darker shade for hover */
+    color: #EAEAEA; /* Lighter color for text on hover */
+}
+
+main {
+    background-color: #ffffff; /* Clean white for the main content */
+    padding: 20px;
+    margin: 40px; /* Add margin around the main to separate from header/footer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+}
+
+footer .footer-content {
+    padding: 20px 0; /* Adjusted footer content padding for consistency */
+}
+
+.footer-content .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Ensure footer content and social links are centered and professional */
+.footer-content, .social-links {
+    text-align: center;
+}
+
+/* Further styling adjustments as necessary */

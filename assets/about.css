@@ -1,0 +1,109 @@
+h1 {
+    text-align: center;
+    }
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.headshot {
+    border-radius: 50%; /* Circular headshot */
+    margin-bottom: 20px; /* Space below the image */
+    width: 150px; /* Fixed size for the image */
+    height: 150px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space properly */
+}
+
+.skills-interests-section {
+    margin-top: 40px;
+}
+
+.skills, .interests {
+    margin: 20px 0;
+}
+
+.skills h3, .interests h3 {
+    color: #6A8D92; /* Pastel blue-green for headings */
+}
+
+.resume-button {
+    background-color: #94B49F; /* Soft green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #7D9D9C; /* Darker shade for hover */
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left; /* Align text for better readability */
+    display: inline-block; /* Center the list in its container */
+}
+
+li {
+    margin: 5px 0; /* Spacing between list items */
+}
+
+.skills-interests-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.skills, .interests {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 20px 0;
+    padding: 20px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width for large screens */
+}
+
+.skills h3, .interests h3 {
+    color: #6A8D92; /* Pastel blue-green for headings */
+    margin-bottom: 15px; /* Extra space below headings */
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Increased spacing for readability */
+    text-align: start; /* Aligns text to the start, better for longer lists */
+}
+
+/* Enhancing the resume button to fit the card style */
+.resume-button {
+    margin-top: 20px; /* Adds space above the resume button */
+    display: inline-block; /* Aligns the button to the center */
+}
+
+@media (min-width: 768px) {
+    .skills-interests-section {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px; /* Space between skills and interests cards */
+    }
+
+    .skills, .interests {
+        width: calc(50% - 20px); /* Adjust width for side-by-side layout, accounting for gap */
+    }
+}
+
+
