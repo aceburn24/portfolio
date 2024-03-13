@@ -29,10 +29,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             //Recipients
             $mail->setFrom('spicyburns90@gmail.com', 'Contact Form');
-            $mail->addAddress('weiseace@gmail.com', 'Recipient Name'); // Add a recipient, adjust as needed
+            $mail->addAddress('manettefernandez@gmail.com', 'Recipient Name'); 
 
             // Content
-            $mail->isHTML(true); // Set email format to HTML
+            $mail->isHTML(true); 
             $mail->Subject = "New Contact from $name";
             $mail->Body    = "Name: $name<br>Email: $email<br><br>Message:<br>$message";
             $mail->AltBody = "Name: $name\nEmail: $email\n\nMessage:\n$message";

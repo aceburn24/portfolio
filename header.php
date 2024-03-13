@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <h1>MY PORTFOLIO</h1>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>

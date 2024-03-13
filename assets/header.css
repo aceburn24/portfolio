@@ -1,55 +1,55 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4F4F8; /* Light pastel background for the body */
+    background-color: #F4F4F8;
     margin: 0;
-    padding: 0; /* Removed padding to allow full-width header/footer */
-    color: #333; /* Professional text color */
+    padding: 0; 
+    color: #333; 
 }
 
 header, footer {
-    background-color: #6A8D92; /* Pastel blue-green for a professional look */
+    background-color: #6A8D92;
     color: #fff;
-    padding: 20px 40px; /* Sufficient padding for content, added horizontal padding */
+    padding: 20px 40px;
     text-align: center;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0; /* Ensure the list takes no extra space */
+    margin: 0; 
 }
 
 nav ul li {
     display: inline;
-    margin: 0 20px; /* Increased margin for better spacing */
+    margin: 0 20px; 
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    background-color: #94B49F; /* Soft green for links */
+    background-color: #94B49F; 
     padding: 10px 15px;
-    border-radius: 20px; /* Rounded corners for a softer look */
+    border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #7D9D9C; /* Darker shade for hover */
-    color: #EAEAEA; /* Lighter color for text on hover */
+    background-color: #7D9D9C; 
+    color: #EAEAEA;
 }
 
 main {
-    background-color: #ffffff; /* Clean white for the main content */
+    background-color: #ffffff; 
     padding: 20px;
-    margin: 40px; /* Add margin around the main to separate from header/footer */
+    margin: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    border-radius: 10px; 
 }
 
 footer .footer-content {
-    padding: 20px 0; /* Adjusted footer content padding for consistency */
+    padding: 20px 0; 
 }
 
 .footer-content .social-links a {
@@ -63,4 +63,3 @@ footer .footer-content {
     text-align: center;
 }
 
-/* Further styling adjustments as necessary */

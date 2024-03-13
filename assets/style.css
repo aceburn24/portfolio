@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f4f8; /* Soft background color */
+    background-color: #f0f4f8; 
 }
 
 main {
@@ -17,7 +17,7 @@ section {
 }
 
 h2 {
-    color: #6c757d; /* Soft color for headings */
+    color: #6c757d; 
     text-align: center;
     margin-bottom: 20px;
 }
@@ -27,7 +27,7 @@ h2 {
     background-color: #ffffff;
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 15px; /* More rounded corners */
+    border-radius: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -35,27 +35,28 @@ h2 {
     background-color: #ddd;
     background-size: cover;
     background-position: center;
-    border-radius: 12px; /* Rounded corners for images */
+    border-radius: 12px; 
     margin-bottom: 15px;
 }
 
+
 .project h3 {
     margin-top: 0;
-    color: #333; /* Darker color for contrast */
+    color: #333; 
 }
 
 .project-link {
     display: inline-block;
-    background-color: #ff6b6b; /* Soft red color */
+    background-color: #ff6b6b; 
     color: white;
     padding: 10px 15px;
     text-decoration: none;
-    border-radius: 8px; /* Rounded buttons */
+    border-radius: 8px; 
     transition: background-color 0.3s;
 }
 
 .project-link:hover {
-    background-color: #fa5252; /* Darker shade for hover effect */
+    background-color: #fa5252; 
 }
 
 /* Skills section styling */
@@ -66,11 +67,11 @@ h2 {
 }
 
 .skills-list li {
-    background-color: #e2e6ea; /* Light grey for skills background */
-    color: #495057; /* Soft text color */
+    background-color: #e2e6ea; 
+    color: #495057; 
     margin-bottom: 10px;
     padding: 15px;
-    border-radius: 20px; /* Very rounded corners for skill items */
+    border-radius: 20px; 
     display: inline-block;
     width: auto;
 }
@@ -85,36 +86,36 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adds space between cards */
+    gap: 20px; 
 }
 
 .certification-card {
-    background-color: #ffffff; /* White background for the card */
-    border-radius: 10px; /* Rounded corners for the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensures the content respects border-radius */
-    text-align: center; /* Center-aligns the content */
-    width: 300px; /* Fixed width for consistency */
-    margin-bottom: 20px; /* Space below each card */
-    padding: 20px; /* Padding inside the card */
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+    text-align: center; 
+    width: 300px; 
+    margin-bottom: 20px; 
+    padding: 20px; 
 }
 
 .certification-badge {
-    width: 80px; /* Adjusted width for the badge */
-    height: 80px; /* Adjusted height for the badge */
-    margin: auto; /* Centers the badge horizontally */
-    display: block; /* Corrects display for proper margin handling */
-    border-radius: 50%; /* Ensures the badge is circular */
+    width: 80px; 
+    height: 80px; 
+    margin: auto; 
+    display: block; 
+    border-radius: 50%; 
 }
 
 .certification-info h3, .certification-info p {
-    margin: 10px 0; /* Adds margin to space out the text */
+    margin: 10px 0; 
 }
 
 /* Enhanced hover effect for the card */
 .certification-card:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px); /* Slightly raises the card */
+    transform: translateY(-5px); 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 

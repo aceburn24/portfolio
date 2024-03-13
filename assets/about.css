@@ -11,11 +11,11 @@ h1 {
 }
 
 .headshot {
-    border-radius: 50%; /* Circular headshot */
-    margin-bottom: 20px; /* Space below the image */
-    width: 150px; /* Fixed size for the image */
-    height: 150px; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the space properly */
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
 }
 
 .skills-interests-section {
@@ -27,11 +27,11 @@ h1 {
 }
 
 .skills h3, .interests h3 {
-    color: #6A8D92; /* Pastel blue-green for headings */
+    color: #6A8D92;
 }
 
 .resume-button {
-    background-color: #94B49F; /* Soft green */
+    background-color: #94B49F;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -40,17 +40,17 @@ h1 {
 }
 
 .resume-button:hover {
-    background-color: #7D9D9C; /* Darker shade for hover */
+    background-color: #7D9D9C; 
 }
 
 ul {
     list-style-position: inside;
-    text-align: left; /* Align text for better readability */
-    display: inline-block; /* Center the list in its container */
+    text-align: left;
+    display: inline-block;
 }
 
 li {
-    margin: 5px 0; /* Spacing between list items */
+    margin: 5px 0; 
 }
 
 .skills-interests-section {
@@ -63,18 +63,18 @@ li {
 }
 
 .skills, .interests {
-    background-color: #ffffff; /* White background for cards */
-    border-radius: 10px; /* Rounded corners for cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 20px 0;
     padding: 20px;
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Maximum width for large screens */
+    width: 80%; 
+    max-width: 600px; 
 }
 
 .skills h3, .interests h3 {
-    color: #6A8D92; /* Pastel blue-green for headings */
-    margin-bottom: 15px; /* Extra space below headings */
+    color: #6A8D92; 
+    margin-bottom: 15px; 
 }
 
 ul {
@@ -84,25 +84,25 @@ ul {
 }
 
 li {
-    margin: 10px 0; /* Increased spacing for readability */
-    text-align: start; /* Aligns text to the start, better for longer lists */
+    margin: 10px 0; 
+    text-align: start; 
 }
 
 /* Enhancing the resume button to fit the card style */
 .resume-button {
-    margin-top: 20px; /* Adds space above the resume button */
-    display: inline-block; /* Aligns the button to the center */
+    margin-top: 20px; 
+    display: inline-block; 
 }
 
 @media (min-width: 768px) {
     .skills-interests-section {
         flex-direction: row;
         justify-content: center;
-        gap: 20px; /* Space between skills and interests cards */
+        gap: 20px; 
     }
 
     .skills, .interests {
-        width: calc(50% - 20px); /* Adjust width for side-by-side layout, accounting for gap */
+        width: calc(50% - 20px);
     }
 }
 

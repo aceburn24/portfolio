@@ -8,43 +8,47 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
+
+    <?php
+        $firstname = 'Marinette';
+        $lastname = 'Fernandez';
+    ?>
+
     <main>
         <h1>Get to know me!</h1>
         <section class="about-me-section">
             <div class="biography">
-                <!-- Adding a placeholder image for headshot -->
-                <img src="https://via.placeholder.com/150" alt="Your Headshot" class="headshot">
-                <p>Hello! I'm [Your Name], a passionate and dedicated web developer with a deep love for creating seamless, user-friendly digital experiences. With a background in [Your Background], I've honed my skills in front-end and back-end technologies, including HTML, CSS, JavaScript, Python, and frameworks like React and Django.</p>
-                <p>Throughout my career, I've had the opportunity to work on a variety of projects, from small business websites to complex web applications, always with a focus on clean, efficient code and responsive design. My journey in tech started from [a brief story about how you got into tech], and it's been an exciting ride ever since.</p>
-                <p>When I'm not coding, you might find me [Your Hobbies], exploring the latest tech trends, or contributing to open-source projects. I'm always eager to learn new technologies and methodologies to better myself as a developer and to contribute to the tech community.</p>
-                <p>I'm looking to [Your Career Goals], and I'm excited about the opportunities to collaborate on innovative projects with like-minded individuals.</p>
-                <a href="resume.pdf" download="YourName_Resume.pdf" class="resume-button">Download My Resume</a>
+                <img src="./images/profile.jpg" alt="Profile picture of <?php echo $firstname . ' ' . $lastname; ?>" class="headshot">
+                <p>Hello! I'm <?php echo $firstname . ' ' . $lastname; ?>, an emerging web developer with a keen interest in learning and growing in the tech space. I'm at the beginning of my journey, with a curiosity-driven approach to front-end and back-end technologies, starting with the basics like HTML, CSS, and JavaScript, and dipping my toes into Python and frameworks such as React.</p>
+                <p>My adventure into tech began [a brief story about how you got into tech], fueled by a desire to understand how digital solutions enhance our lives. Every project I tackle, no matter the scale, is an exciting opportunity to learn and apply my growing knowledge.</p>
+                <p>Being an extrovert, I thrive on interaction and collaboration, spending much of my free time with friends and family. I'm passionate about exchanging ideas and experiences, whether I'm coding, exploring the outdoors, or diving into the latest tech innovations.</p>
+                <p>As I continue to explore this dynamic field, my goal is to continuously expand my skillsets, particularly in environments that value teamwork and open communication. I'm eager to connect with others who share my enthusiasm for technology and personal growth.</p>
+                <a href="resume.pdf" download="<?php echo $firstname . '_' . $lastname; ?>_Resume.pdf" class="resume-button">Download My Resume</a>
             </div>
         </section>
         <section id="skills-interests" class="skills-interests-section">
             <h2>Skills & Interests</h2>
             <div class="skills">
-                <h3>Professional Skills</h3>
+                <h3>Beginning Skills</h3>
                 <ul>
-                    <li>Front-End Development (HTML, CSS, JavaScript, React)</li>
-                    <li>Back-End Development (Python, Django, Node.js)</li>
-                    <li>Version Control (Git, GitHub)</li>
-                    <li>Responsive Web Design</li>
-                    <!-- Add more skills as needed -->
+                    <li>Learning Front-End Development (HTML, CSS, JavaScript)</li>
+                    <li>Exploring Back-End Basics (Python, Django)</li>
+                    <li>Understanding Version Control (Git, GitHub)</li>
+                    <li>Grasping Responsive Web Design Concepts</li>
                 </ul>
             </div>
             <div class="interests">
                 <h3>Personal Interests</h3>
                 <ul>
-                    <li>Coding and Learning New Technologies</li>
-                    <li>Outdoor Activities</li>
-                    <li>Reading and Writing Tech Blogs</li>
-                    <li>Traveling and Exploring New Cultures</li>
-                    <!-- Add more interests as needed -->
+                    <li>Developing Coding Skills & Discovering New Technologies</li>
+                    <li>Enjoying Outdoor Activities with Friends and Family</li>
+                    <li>Engaging in Tech Communities</li>
+                    <li>Traveling and Experiencing New Cultures</li>
                 </ul>
             </div>
         </section>
     </main>
+
     <?php include 'footer.php'; ?>
 </body>
 </html>
